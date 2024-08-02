@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD57CB862C5198BB00B2D2E0 /* STEMStarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57CB852C5198BB00B2D2E0 /* STEMStarsApp.swift */; };
+		BD57CB882C5198BB00B2D2E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57CB872C5198BB00B2D2E0 /* ContentView.swift */; };
+		BD57CB8A2C5198C800B2D2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD57CB892C5198C800B2D2E0 /* Assets.xcassets */; };
+		BD57CB8D2C5198C800B2D2E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD57CB8C2C5198C800B2D2E0 /* Preview Assets.xcassets */; };
+		BD57CB972C5198C800B2D2E0 /* STEMStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57CB962C5198C800B2D2E0 /* STEMStarsTests.swift */; };
+		BD57CBA12C5198C800B2D2E0 /* STEMStarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57CBA02C5198C800B2D2E0 /* STEMStarsUITests.swift */; };
+		BD57CBA32C5198C800B2D2E0 /* STEMStarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57CBA22C5198C800B2D2E0 /* STEMStarsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD57CB932C5198C800B2D2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD57CB7A2C5198BB00B2D2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD57CB812C5198BB00B2D2E0;
+			remoteInfo = STEMStars;
+		};
+		BD57CB9D2C5198C800B2D2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD57CB7A2C5198BB00B2D2E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD57CB812C5198BB00B2D2E0;
+			remoteInfo = STEMStars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD57CB822C5198BB00B2D2E0 /* STEMStars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEMStars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD57CB852C5198BB00B2D2E0 /* STEMStarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsApp.swift; sourceTree = "<group>"; };
+		BD57CB872C5198BB00B2D2E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD57CB892C5198C800B2D2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD57CB8C2C5198C800B2D2E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD57CB922C5198C800B2D2E0 /* STEMStarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEMStarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD57CB962C5198C800B2D2E0 /* STEMStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsTests.swift; sourceTree = "<group>"; };
+		BD57CB9C2C5198C800B2D2E0 /* STEMStarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEMStarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD57CBA02C5198C800B2D2E0 /* STEMStarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsUITests.swift; sourceTree = "<group>"; };
+		BD57CBA22C5198C800B2D2E0 /* STEMStarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD57CB7F2C5198BB00B2D2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB8F2C5198C800B2D2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB992C5198C800B2D2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD57CB792C5198BB00B2D2E0 = {
+			isa = PBXGroup;
+			children = (
+				BD57CB842C5198BB00B2D2E0 /* STEMStars */,
+				BD57CB952C5198C800B2D2E0 /* STEMStarsTests */,
+				BD57CB9F2C5198C800B2D2E0 /* STEMStarsUITests */,
+				BD57CB832C5198BB00B2D2E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD57CB832C5198BB00B2D2E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD57CB822C5198BB00B2D2E0 /* STEMStars.app */,
+				BD57CB922C5198C800B2D2E0 /* STEMStarsTests.xctest */,
+				BD57CB9C2C5198C800B2D2E0 /* STEMStarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD57CB842C5198BB00B2D2E0 /* STEMStars */ = {
+			isa = PBXGroup;
+			children = (
+				BD57CB852C5198BB00B2D2E0 /* STEMStarsApp.swift */,
+				BD57CB872C5198BB00B2D2E0 /* ContentView.swift */,
+				BD57CB892C5198C800B2D2E0 /* Assets.xcassets */,
+				BD57CB8B2C5198C800B2D2E0 /* Preview Content */,
+			);
+			path = STEMStars;
+			sourceTree = "<group>";
+		};
+		BD57CB8B2C5198C800B2D2E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD57CB8C2C5198C800B2D2E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD57CB952C5198C800B2D2E0 /* STEMStarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD57CB962C5198C800B2D2E0 /* STEMStarsTests.swift */,
+			);
+			path = STEMStarsTests;
+			sourceTree = "<group>";
+		};
+		BD57CB9F2C5198C800B2D2E0 /* STEMStarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD57CBA02C5198C800B2D2E0 /* STEMStarsUITests.swift */,
+				BD57CBA22C5198C800B2D2E0 /* STEMStarsUITestsLaunchTests.swift */,
+			);
+			path = STEMStarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD57CB812C5198BB00B2D2E0 /* STEMStars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD57CBA62C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStars" */;
+			buildPhases = (
+				BD57CB7E2C5198BB00B2D2E0 /* Sources */,
+				BD57CB7F2C5198BB00B2D2E0 /* Frameworks */,
+				BD57CB802C5198BB00B2D2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STEMStars;
+			productName = STEMStars;
+			productReference = BD57CB822C5198BB00B2D2E0 /* STEMStars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD57CB912C5198C800B2D2E0 /* STEMStarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD57CBA92C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStarsTests" */;
+			buildPhases = (
+				BD57CB8E2C5198C800B2D2E0 /* Sources */,
+				BD57CB8F2C5198C800B2D2E0 /* Frameworks */,
+				BD57CB902C5198C800B2D2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD57CB942C5198C800B2D2E0 /* PBXTargetDependency */,
+			);
+			name = STEMStarsTests;
+			productName = STEMStarsTests;
+			productReference = BD57CB922C5198C800B2D2E0 /* STEMStarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD57CB9B2C5198C800B2D2E0 /* STEMStarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD57CBAC2C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStarsUITests" */;
+			buildPhases = (
+				BD57CB982C5198C800B2D2E0 /* Sources */,
+				BD57CB992C5198C800B2D2E0 /* Frameworks */,
+				BD57CB9A2C5198C800B2D2E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD57CB9E2C5198C800B2D2E0 /* PBXTargetDependency */,
+			);
+			name = STEMStarsUITests;
+			productName = STEMStarsUITests;
+			productReference = BD57CB9C2C5198C800B2D2E0 /* STEMStarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD57CB7A2C5198BB00B2D2E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD57CB812C5198BB00B2D2E0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD57CB912C5198C800B2D2E0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD57CB812C5198BB00B2D2E0;
+					};
+					BD57CB9B2C5198C800B2D2E0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD57CB812C5198BB00B2D2E0;
+					};
+				};
+			};
+			buildConfigurationList = BD57CB7D2C5198BB00B2D2E0 /* Build configuration list for PBXProject "STEMStars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD57CB792C5198BB00B2D2E0;
+			productRefGroup = BD57CB832C5198BB00B2D2E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD57CB812C5198BB00B2D2E0 /* STEMStars */,
+				BD57CB912C5198C800B2D2E0 /* STEMStarsTests */,
+				BD57CB9B2C5198C800B2D2E0 /* STEMStarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD57CB802C5198BB00B2D2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD57CB8D2C5198C800B2D2E0 /* Preview Assets.xcassets in Resources */,
+				BD57CB8A2C5198C800B2D2E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB902C5198C800B2D2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB9A2C5198C800B2D2E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD57CB7E2C5198BB00B2D2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD57CB882C5198BB00B2D2E0 /* ContentView.swift in Sources */,
+				BD57CB862C5198BB00B2D2E0 /* STEMStarsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB8E2C5198C800B2D2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD57CB972C5198C800B2D2E0 /* STEMStarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD57CB982C5198C800B2D2E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD57CBA12C5198C800B2D2E0 /* STEMStarsUITests.swift in Sources */,
+				BD57CBA32C5198C800B2D2E0 /* STEMStarsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD57CB942C5198C800B2D2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD57CB812C5198BB00B2D2E0 /* STEMStars */;
+			targetProxy = BD57CB932C5198C800B2D2E0 /* PBXContainerItemProxy */;
+		};
+		BD57CB9E2C5198C800B2D2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD57CB812C5198BB00B2D2E0 /* STEMStars */;
+			targetProxy = BD57CB9D2C5198C800B2D2E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD57CBA42C5198C800B2D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD57CBA52C5198C800B2D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD57CBA72C5198C800B2D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEMStars/Preview Content\"";
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD57CBA82C5198C800B2D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEMStars/Preview Content\"";
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD57CBAA2C5198C800B2D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEMStars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEMStars";
+			};
+			name = Debug;
+		};
+		BD57CBAB2C5198C800B2D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEMStars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEMStars";
+			};
+			name = Release;
+		};
+		BD57CBAD2C5198C800B2D2E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEMStars;
+			};
+			name = Debug;
+		};
+		BD57CBAE2C5198C800B2D2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTSCLPA7H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEMStars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD57CB7D2C5198BB00B2D2E0 /* Build configuration list for PBXProject "STEMStars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD57CBA42C5198C800B2D2E0 /* Debug */,
+				BD57CBA52C5198C800B2D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD57CBA62C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD57CBA72C5198C800B2D2E0 /* Debug */,
+				BD57CBA82C5198C800B2D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD57CBA92C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD57CBAA2C5198C800B2D2E0 /* Debug */,
+				BD57CBAB2C5198C800B2D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD57CBAC2C5198C800B2D2E0 /* Build configuration list for PBXNativeTarget "STEMStarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD57CBAD2C5198C800B2D2E0 /* Debug */,
+				BD57CBAE2C5198C800B2D2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD57CB7A2C5198BB00B2D2E0 /* Project object */;
+}
